@@ -1,6 +1,5 @@
-package com.achrefdkhailia.code;
+package com.achrefdkhailia.example;
 
-import com.achrefdkhailia.example.Application;
 import com.achrefdkhailia.example.domain.User;
 import com.achrefdkhailia.example.repository.UserRepository;
 import com.achrefdkhailia.example.controller.UsersController;
@@ -19,8 +18,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static com.achrefdkhailia.code.ParamTestFixtures.assertionResponseFailure;
-import static com.achrefdkhailia.code.ParamTestFixtures.assertionResponseUser;
+import static com.achrefdkhailia.example.ParamTestFixtures.assertionResponseFailure;
+import static com.achrefdkhailia.example.ParamTestFixtures.assertionResponseUser;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 import java.util.*;

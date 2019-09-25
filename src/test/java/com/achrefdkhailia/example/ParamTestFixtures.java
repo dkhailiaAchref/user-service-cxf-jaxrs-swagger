@@ -1,4 +1,4 @@
-package com.achrefdkhailia.code;
+package com.achrefdkhailia.example;
 
 import com.achrefdkhailia.example.domain.User;
 import org.slf4j.Logger;
